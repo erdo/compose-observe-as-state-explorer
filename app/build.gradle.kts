@@ -40,7 +40,7 @@ android {
 dependencies {
 
     // reactivity
-    implementation("co.early.fore:fore-kt-android:1.5.6")
+    implementation("co.early.fore:fore-kt-android:1.5.7")
     implementation("co.early.fore:fore-kt-android-compose:$composeVersion")
     implementation("androidx.compose.runtime:runtime-livedata:$composeVersion")
 
