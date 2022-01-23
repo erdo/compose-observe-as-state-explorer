@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#515673</color>
+    <color name="colorPrimaryDark">#1E202B</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+    <color name="colorAlive">#4CAF50</color>
+    <color name="colorDead">#E91E63</color>
+
+    <color name="colorPastel01">#BAD851</color>
+    <color name="colorPastel02">#ECE926</color>
+    <color name="colorPastel03">#E4C625</color>
+    <color name="colorPastel04">#83C55F</color>
+    <color name="colorPastel05">#8CD0CC</color>
+    <color name="colorPastel06">#6EABD5</color>
+    <color name="colorPastel07">#7C7ABA</color>
+    <color name="colorPastel08">#9E7CB7</color>
+    <color name="colorPastel09">#BA6AA8</color>
+
+</resources>

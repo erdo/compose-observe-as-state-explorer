@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">observeAsState explorer</string>
+
+    <string name="flow_obs">(Flow Observers)</string>
+    <string name="fore_obs">(Fore Observers)</string>
+    <string name="fore_lifecycle_obs">(Fore Observers with LifeCycle)</string>
+    <string name="ld_obs">(LiveData Observers)</string>
+
+    <string name="nav_to_non_compose_activity">To Non-Compose Activity</string>
+
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+    <string name="show">show</string>
+    <string name="hide">hide</string>
+    <string name="toggle_visibility">toggle vis</string>
+    <string name="log_obs_count">log obs</string>
+    <string name="finish_first">finish first activity</string>
+
+</resources>

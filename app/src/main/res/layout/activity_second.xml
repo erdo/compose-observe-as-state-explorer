@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- flow -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flow_obs"
+            android:background="@color/colorPastel01"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:background="@color/colorPastel01">
+
+            <Button
+                android:id="@+id/flow_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/increase"/>
+
+            <Button
+                android:id="@+id/flow_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decrease"/>
+
+            <Button
+                android:id="@+id/flow_show_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle_visibility"/>
+
+            <Button
+                android:id="@+id/flow_log_obs_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_obs_count"/>
+
+        </LinearLayout>
+
+        <!-- fore -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fore_obs"
+            android:background="@color/colorPastel02" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:background="@color/colorPastel02" >
+
+            <Button
+                android:id="@+id/fore_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/increase"/>
+
+            <Button
+                android:id="@+id/fore_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decrease"/>
+
+            <Button
+                android:id="@+id/fore_show_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle_visibility"/>
+
+            <Button
+                android:id="@+id/fore_log_obs_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_obs_count"/>
+
+        </LinearLayout>
+
+        <!-- live data -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ld_obs"
+            android:background="@color/colorPastel04"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:background="@color/colorPastel04" >
+
+            <Button
+                android:id="@+id/ld_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/increase"/>
+
+            <Button
+                android:id="@+id/ld_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decrease" />
+
+            <Button
+                android:id="@+id/ld_show_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle_visibility" />
+
+            <Button
+                android:id="@+id/ld_log_obs_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_obs_count"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/finish_first_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_first"/>
+
+    </LinearLayout>
+
+</ScrollView>
