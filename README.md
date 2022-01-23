@@ -1,10 +1,10 @@
-# Compose Observer As State Explorer
+# Compose ObserveAsState Explorer
 
 Simple android app to explore the behaviour or various observeAsState() functions available from reactive libraries
 
-[Flow](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#(kotlinx.coroutines.flow.StateFlow).collectAsState(kotlin.coroutines.CoroutineContext))
-[fore](https://erdo.github.io/android-fore/)
-[LiveData](https://developer.android.com/reference/kotlin/androidx/compose/runtime/livedata/package-summary#(androidx.lifecycle.LiveData).observeAsState())
+- [Flow.collectAsState()](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#(kotlinx.coroutines.flow.StateFlow).collectAsState(kotlin.coroutines.CoroutineContext))
+- [fore's Observable.observeAsState()](https://erdo.github.io/android-fore/)
+- [LiveData.observeAsState()](https://developer.android.com/reference/kotlin/androidx/compose/runtime/livedata/package-summary#(androidx.lifecycle.LiveData).observeAsState())
 
 
 ## License
