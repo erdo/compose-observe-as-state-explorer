@@ -2,6 +2,8 @@
 
 Simple android app to explore the behaviour or various observeAsState() functions available from reactive libraries
 
+![observe as state sample app](screenshot.png)
+
 - [Flow.collectAsState()](https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#(kotlinx.coroutines.flow.StateFlow).collectAsState(kotlin.coroutines.CoroutineContext))
 - [fore's Observable.observeAsState()](https://erdo.github.io/android-fore/)
 - [LiveData.observeAsState()](https://developer.android.com/reference/kotlin/androidx/compose/runtime/livedata/package-summary#(androidx.lifecycle.LiveData).observeAsState())
